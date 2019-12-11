@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label alignment="CENTER" layoutX="228.0" layoutY="94.0" prefHeight="50.0" prefWidth="150.0" text="Sign In" textAlignment="CENTER" textFill="#865050">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Button fx:id="btn_admin" layoutX="14.0" layoutY="169.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="180.0" text="Administrator">
+         <font>
+            <Font size="19.0" />
+         </font></Button>
+      <Button fx:id="btn_lib" layoutX="211.0" layoutY="169.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="180.0" text="Librarian">
+         <font>
+            <Font name="Calibri Light" size="19.0" />
+         </font></Button>
+      <Button fx:id="btn_student" layoutX="406.0" layoutY="169.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="180.0" text="Student">
+         <font>
+            <Font name="Calibri Light" size="20.0" />
+         </font></Button>
+      <Label fx:id="register" layoutX="370.0" layoutY="331.0" prefHeight="40.0" prefWidth="170.0" text="No account? Register" textFill="#865050">
+         <font>
+            <Font name="Calibri Light" size="17.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
